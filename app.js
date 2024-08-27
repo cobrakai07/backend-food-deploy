@@ -18,7 +18,7 @@ const app=express();
 dotenv.config({path : "./config/config.env"});
 
 app.use(cors({
-    origin:["https://enchanting-tapioca-d8dca6.netlify.app"],
+    origin:["https://astonishing-pony-468cfb.netlify.app"],
     methods:["GET","POST","DELETE","URL"],
     credentials:true,
 }));
